@@ -1,14 +1,18 @@
 [tool.poetry]
-name = "search-dashboard"
+name = "search_dashboard"
 version = "0.1.0"
-description = ""
-authors = ["frabatx <francesco92battista@gmail.com>"]
+description = "A terminal-based dashboard using Textual"
+authors = ["Francesco Battista <francesco92battista@gmail.com>"]
+license = "MIT"
 readme = "README.md"
-packages = [{include = "search_dashboard", from = "src"}]
+packages = [{ include = "textual_dashboard", from = "src" }]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.11"
+textual = "^0.51.0"  # versione aggiornata al 2025
 
+[tool.poetry.scripts]
+textual-dashboard = "textual_dashboard.app:run"
 
 [build-system]
 requires = ["poetry-core"]

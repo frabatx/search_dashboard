@@ -1,0 +1,26 @@
+[
+  {
+    "sourceDocumentId": "DOC-001",
+    "metadata": {
+      "titolo": "Intelligenza Artificiale e Futuro",
+      "sottotitolo": "Impatto sull'economia globale",
+      "anno": 2023
+    }
+  },
+  {
+    "sourceDocumentId": "DOC-002",
+    "metadata": {
+      "titolo": "Reti Neurali Profonde",
+      "sottotitolo": "Dalla teoria alla pratica",
+      "anno": 2022
+    }
+  },
+  {
+    "sourceDocumentId": "DOC-003",
+    "metadata": {
+      "titolo": "Etica dell'IA",
+      "sottotitolo": "Sfide e prospettive",
+      "anno": 2024
+    }
+  }
+]

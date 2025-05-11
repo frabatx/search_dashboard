@@ -1,0 +1,43 @@
+/* app.tcss - Diagnosi di layout per Vertical e DataTable */
+
+Screen {
+    /* Per vedere i limiti dello Screen, se i widget non lo riempiono */
+    /* background: dimgray; */
+}
+
+Header {
+    background: red !important; /* Colore forte, !important per sovrascrivere altro */
+    color: white;
+    height: 3; /* Altezza fissa per Header */
+}
+
+#search-input {
+    background: lightblue !important; /* Colore forte */
+    color: black;
+    height: 3; /* Altezza fissa per Input */
+    padding: 0 1; /* padding orizzontale */
+    /* margin-bottom: 1; */ /* Eventuale spazio sotto l'input */
+}
+
+Vertical {
+    background: orange !important; /* Colore per vedere Vertical */
+    /* Inizialmente non impostare altezza per Vertical, lascialo fluire
+       o prova con un'altezza fissa piccola come height: 5; se necessario */
+    /* padding: 1; */ /* Per vedere i limiti interni */
+}
+
+#document-table {
+    background: purple !important; /* Colore per vedere DataTable */
+    color: white;
+    /* NON USARE height: 1fr; ALL'INIZIO */
+    /* Prova con un'altezza fissa per iniziare e vedere se appare */
+    height: 10; /* Esempio: 10 righe di altezza */
+    /* Oppure commenta l'altezza per vedere la sua dimensione naturale (potrebbe essere 0 se vuota) */
+    /* width: 100%; */ /* Di solito prende la larghezza del contenitore Vertical */
+}
+
+Footer {
+    background: green !important; /* Colore forte */
+    color: white;
+    height: 1; /* Altezza fissa per Footer */
+}
